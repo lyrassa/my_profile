@@ -4,6 +4,10 @@ body{
     background:linear-gradient(90deg, #00d2ff 0%,#3a7bd5 100% );
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+* {
+    box-sizing: border-box;
+  }
+  
 h1{
     color: white;
     font-size: 40px;
@@ -11,11 +15,11 @@ h1{
     margin-top: 15px;
 }
 .white-backgrown{
-    height: 350px;
+    height: 150px;
     width: 100%;
     background-color: white;
     position: absolute;
-    top: 100%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%,-50%);
 
@@ -75,5 +79,15 @@ h1{
     padding-top: 2px;
 }
 .linkedin{
+    background-color: #0074b1;
+}
+.facebook{
+    background-color: #4064ae;
+}
+.youtube{
     background-color: red;
 }
+.gitHub{
+    background-color: #5c6bc0;
+}
+
