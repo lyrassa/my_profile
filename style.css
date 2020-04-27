@@ -10,12 +10,13 @@ h1{
     margin-left: 1.33vw;
     margin-top: 1vw;
 }
+
 .white-backgrown{
-    height: 25%;
+    height: 40%;
     width: 100%;
     background-color: white;
     position: absolute;
-    top: 90%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -30,6 +31,9 @@ h1{
     transform: translate(-50%,-50%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
+}
+.rectangle-card:hover{
+    background:linear-gradient(90deg,whitesmoke 0%,white 100% );
 }
 .image-container{
     width: 48%;
@@ -50,28 +54,34 @@ h1{
     color: #00d2ff;
 }
 .name{
-    margin-top: -5vw;
-    font-size: 5vw;
+    margin-top: -6.7vw;
+    font-size: 6.4vw;
     font-weight: bold;
 }
+
 .major-container{
-    margin-top: -5vw;
-    font-size: 2vw;
+    margin-top: -6.2vw;
+    font-size: 1.78vw;
     color: #00d2ff;
     margin-bottom: 2.5vw;
 }
 .icons-container{
-    background-color: #3a7bd5;
+    margin-top: -1vw;
+}
+
+img{
+    width: 3.2vw;
+    height: 3.2vw;
     border-radius: 50%;
-    width: 3.33vw;
-    height: 3.25vw;
+    background-color: #3a7bd5;
     border: none;
     margin: 0 0.3vw 0 0;
 }
-.icons-container img{
-    width: 1.66vw;
-    height: auto;
+
+img:hover{
+    background-color:green
 }
+
 .linkedin{
     background-color: #0074b1;
 }
@@ -84,4 +94,7 @@ h1{
 .gitHub{
     background-color: #5c6bc0;
 }
+
+
+
 
