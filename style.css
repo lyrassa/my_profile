@@ -10,7 +10,7 @@ h1{
     margin-left: 1.33vw;
     margin-top: 1vw;
 }
-.white-backgrown{
+.bio-graphy{
     height: 10px;
     width: 100%;
     background-color: white;
@@ -21,9 +21,10 @@ h1{
 }
 .text-box {
     position: absolute;
+    background-color: white;
     color: gray;
     width: 75%;
-    top: 126vw;
+    top: 130vw;
     left: 50%;
     font-size: 1.5vw;
     text-align: center;
@@ -45,6 +46,7 @@ h1{
 .rectangle-card:hover{
     background:linear-gradient(90deg,whitesmoke 0%,white 100% );
 }
+
 .image-container{
     width: 48%;
     height: auto;
