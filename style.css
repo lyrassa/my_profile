@@ -21,10 +21,9 @@ h1{
 }
 .text-box {
     position: absolute;
-    background-color: white;
     color: gray;
     width: 75%;
-    top: 130vw;
+    top: 132vw;
     left: 50%;
     font-size: 1.5vw;
     text-align: center;
