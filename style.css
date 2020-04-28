@@ -10,16 +10,26 @@ h1{
     margin-left: 1.33vw;
     margin-top: 1vw;
 }
-
 .white-backgrown{
-    height: 40%;
+    height: 10px;
     width: 100%;
     background-color: white;
-    position: absolute;
-    top: 100%;
+    position: relative;
+    top: 33vw;
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.text-box {
+    position: absolute;
+    color: gray;
+    width: 75%;
+    top: 126vw;
+    left: 50%;
+    font-size: 1.5vw;
+    text-align: center;
+    transform: translate(-50%,-50%);
+  }
+
 .rectangle-card {
     height: auto;
     width: 70%;
